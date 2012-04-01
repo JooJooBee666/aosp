@@ -6,7 +6,10 @@
 
   <remote  name="github"
            fetch="git://github.com/" />
-
+  
+  <remote  name="twisted"
+           fetch="https://github.com/ThePlayground/" />
+    
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
