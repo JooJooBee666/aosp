@@ -231,7 +231,42 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-
+  <project path="bionic" name="android_bionic" remote="twisted" revision="ics" />
+  <project path="dalvik" name="android_dalvik" remote="twisted" revision="ics" />
+  <project path="development" name="android_development" remote="twisted" revision="ics" />
+  <project path="external/busybox" name="android_external_busybox" remote="twisted" revision="ics" />
+  <project path="external/freetype" name="android_external_freetype" remote="twisted" revision="ics" />
+  <project path="external/jpeg" name="android_external_jpeg-turbo" remote="twisted" revision="ics" />
+  <project path="external/skia" name="android_external_skia" remote="twisted" revision="ics" />
+  <project path="external/v8" name="android_external_v8" remote="twisted" revision="ics" />
+  <project path="external/webkit" name="android_external_webkit" remote="twisted" revision="ics" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="twisted" revision="ics" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="twisted" revision="ics" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="twisted" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="twisted" revision="ics" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="twisted" revision="ics" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="twisted" revision="ics" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="twisted" revision="ics" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="twisted" revision="ics" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="twisted" revision="ics" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="twisted" revision="ics" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="twisted" revision="ics" />
+  <project path="packages/apps/Camera3d" name="android_packages_apps_Camera3d" remote="twisted" revision="ics" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="twisted" revision="ics" />
+  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="twisted" revision="ics" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="twisted" revision="ics" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="twisted" revision="ics" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="twisted" revision="ics" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="twisted" revision="ics" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="twisted" revision="ics" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="twisted" revision="ics" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="twisted" revision="ics" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="twisted" revision="ics" />
+  <project path="prebuilt" name="android_prebuilt" remote="twisted" revision="ics" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="twisted" revision="ics" />
+  <project path="system/core" name="android_system_core" remote="twisted" revision="ics" />
+  <project path="vendor/twisted" name="proprietary_vendor_twisted" remote="twisted" revision="ics" />
+  
   <project path="device/motorola/hijack" name="CM9-D2G/android_device_moto_hijack" remote="github" revision="ics" />
   <project path="packages/apps/Usb" name="MotoMagic/android_packages_apps_Usb" remote="github" revision="ics" />
 
