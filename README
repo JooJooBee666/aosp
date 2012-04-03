@@ -7,16 +7,16 @@ Updated 12/1/2011 for pre-CM9
 
 Credits:
 Google
-bikedude880
+bikedude880, deck twisted
 cvpcs (for all his work on Moto devices)
 RevNumbers and x13thangelx for their continued work on the D2 Global
-CyanogenMod for providing such well supported projects
-HashCode for being my tech support
+CyanogenMod or providing such well supported projects
 
 -= Building From Source =-
 1) You should have a build environment set up (http://source.android.com/source/initializing.html) before doing anything else.
 2) After that, follow "Installing Repo" from http://source.android.com/source/downloading.html
 3) repo init -u git://github.com/JooJooBee666/aosp -b cm9
-4) . build/envsetup.sh && brunch droid2we
+4) repo sync
+5) . build/envsetup.sh && brunch droid2we
 
 Installable zip will be output in out/target/product/droid2we/generic_droid2we_.zip
