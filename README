@@ -16,10 +16,7 @@ HashCode for being my tech support
 -= Building From Source =-
 1) You should have a build environment set up (http://source.android.com/source/initializing.html) before doing anything else.
 2) After that, follow "Installing Repo" from http://source.android.com/source/downloading.html
-3) repo init -u git://github.com/Global-KANGs/aosp -b cm9
-4) ./cleanup.sh
-5) . build/envsetup.sh
-6) choosecombo 1 1 generic_droid2we eng
-7) make otapackage
+3) repo init -u git://github.com/JooJooBee666/aosp -b cm9
+4) . build/envsetup.sh && brunch droid2we
 
 Installable zip will be output in out/target/product/droid2we/generic_droid2we_.zip
